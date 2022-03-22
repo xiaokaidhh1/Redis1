@@ -79,7 +79,6 @@ public class JedisDemo1 {
         Set<String> stringSet = jedis.zrange("china", 0, -1);
         for (String s : stringSet) {
             System.out.println(s);
-            System.out.println("s2");
         }}
 
 }
