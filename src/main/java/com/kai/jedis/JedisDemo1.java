@@ -80,6 +80,7 @@ public class JedisDemo1 {
         for (String s : stringSet) {
             System.out.println(s);
             System.out.println("3");
+            System.out.println("4");
         }}
 
 }
